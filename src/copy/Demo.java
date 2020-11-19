@@ -1,4 +1,4 @@
-package springdemo;
+package copy;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -11,7 +11,7 @@ public class Demo {
 		System.out.println("her");
 		//new Employee();
 		System.out.println("hedsfsdfr");
-		ApplicationContext context = new ClassPathXmlApplicationContext("./springdemo/config.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 		context.getBean("emp");
 	}
 	
